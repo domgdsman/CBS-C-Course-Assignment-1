@@ -1,0 +1,11 @@
+/Users/dominikgadesmann/Desktop/C# Programming/assignments/#1/one/bin/Debug/netcoreapp2.2/one.deps.json
+/Users/dominikgadesmann/Desktop/C# Programming/assignments/#1/one/bin/Debug/netcoreapp2.2/one.runtimeconfig.json
+/Users/dominikgadesmann/Desktop/C# Programming/assignments/#1/one/bin/Debug/netcoreapp2.2/one.runtimeconfig.dev.json
+/Users/dominikgadesmann/Desktop/C# Programming/assignments/#1/one/bin/Debug/netcoreapp2.2/one.dll
+/Users/dominikgadesmann/Desktop/C# Programming/assignments/#1/one/bin/Debug/netcoreapp2.2/one.pdb
+/Users/dominikgadesmann/Desktop/C# Programming/assignments/#1/one/obj/Debug/netcoreapp2.2/one.csprojAssemblyReference.cache
+/Users/dominikgadesmann/Desktop/C# Programming/assignments/#1/one/obj/Debug/netcoreapp2.2/one.csproj.CoreCompileInputs.cache
+/Users/dominikgadesmann/Desktop/C# Programming/assignments/#1/one/obj/Debug/netcoreapp2.2/one.AssemblyInfoInputs.cache
+/Users/dominikgadesmann/Desktop/C# Programming/assignments/#1/one/obj/Debug/netcoreapp2.2/one.AssemblyInfo.cs
+/Users/dominikgadesmann/Desktop/C# Programming/assignments/#1/one/obj/Debug/netcoreapp2.2/one.dll
+/Users/dominikgadesmann/Desktop/C# Programming/assignments/#1/one/obj/Debug/netcoreapp2.2/one.pdb
