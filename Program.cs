@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text.RegularExpressions;
 
 namespace one
 {
@@ -12,25 +13,30 @@ namespace one
       string name = Console.ReadLine();
 
       Console.WriteLine("Please tell me what time it is: ");
-      int time = int.Parse(Console.ReadLine());
-
-      if (time < 0 || time > 2400)
+      int time;
+      while (!int.TryParse(Console.ReadLine(), out time))
       {
-        Console.WriteLine($"Hi {name}, don't try to fool me! Please provide a valid time in format HHMM!");
-        time = int.Parse(Console.ReadLine());
+        Console.WriteLine("You are probably typing a string. Please provide a number in the valid time format following HHMM!");
       }
 
-      if (time >= 0 && time < 1200)
+      Regex timeRx = new Regex(@"(?:[01]\d|2[0123])(?:[012345]\d)");
+
+      if (!timeRx.IsMatch(time.ToString()))
+      {
+        Console.WriteLine($"Hi {name}, the number you entered does not have 4 digits or does not represent a humanly readable time format(e.g. 9999).\nRestart the application and try again.");
+      }
+
+      else if (time >= 0 && time < 1200)
       {
         Console.WriteLine($"Hi {name}, Welcome and Good Morning. Have a great day!");
       }
 
-      if (time >= 1200 && time < 1800)
+      else if (time >= 1200 && time < 1800)
       {
         Console.WriteLine($"Hi {name}, Welcome and Good Afternoon. Enjoy rest of the day!");
       }
 
-      if (time >= 1800 && time <= 2400)
+      else if (time >= 1800 && time <= 2400)
       {
         Console.WriteLine($"Hi {name}, Welcome and Have a good night!");
       }
